@@ -15,23 +15,6 @@ CREATE TABLE tenants (
   FOREIGN KEY (address_id) REFERENCES addresses (id)
 );
 
-INSERT INTO addresses (street) VALUES ('405 Gatewood Cliff');
-INSERT INTO addresses (city) VALUES ('Cibolo');
-INSERT INTO addresses (state) VALUES ('TX');
-INSERT INTO addresses (zip) VALUES ('78108');
-INSERT INTO addresses (street) VALUES ('225 Meadow Lane');
-INSERT INTO addresses (city) VALUES ('Live Oak');
-INSERT INTO addresses (state) VALUES ('TX');
-INSERT INTO addresses (zip) VALUES ('78123');
-INSERT INTO addresses (street) VALUES ('100 Red Lane');
-INSERT INTO addresses (city) VALUES ('San Antonio');
-INSERT INTO addresses (state) VALUES ('TX');
-INSERT INTO addresses (zip) VALUES ('78233');
-INSERT INTO addresses (street) VALUES ('400 Park Cliff');
-INSERT INTO addresses (city) VALUES ('Houston');
-INSERT INTO addresses (state) VALUES ('TX');
-INSERT INTO addresses (zip) VALUES ('78189');
-
 INSERT INTO addresses (street, city, state, zip) VALUES
 ('405 Gatewood Cliff', 'Cibolo', 'TX', '78108'),
 ('225 Meadow Lane', 'Live Oak', 'TX', '78223'),
